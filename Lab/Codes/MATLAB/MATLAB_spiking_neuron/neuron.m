@@ -45,7 +45,7 @@ classdef neuron
             plot(self.timeseries,self.V,'color','k') 
             title('Integrate and Fire Voltage Response', 'FontAngle','italic')
             xlabel('Time (ms)') 
-            ylabel('Voltage (mV') 
+            ylabel('Voltage (mV)') 
             shg 
             %print('-dpng','-r300','Integrate and Fire Voltage Response');
         end
